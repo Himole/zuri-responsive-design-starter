@@ -1,0 +1,101 @@
+/*MEDIA QUERY Responsive for screen size */
+
+@media screen and (max-width: 756px) {
+    body {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    /*div.nav-bar {
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        padding: .5em 2em;
+        border: 1px solid gold;
+        width: 100%;
+    }
+    ul.nav-links {
+        flex-direction: column;
+    }
+    ul.nav-links li {
+        margin: .3em
+    }
+    ul li a {
+        display: none;
+        text-align: center;
+        background-color: gray;
+        border-radius: 4px;
+    }
+    ul li a:hover {
+        padding: .2em;
+    }
+    div.logo {
+        margin: auto 0;*/
+    }
+    div.hero-section {
+        padding: 5rem 2rem;
+    }
+    div.hero-content-heading h3 {
+        font-size: 1.5rem;
+    }
+    div.hero-content-heading p {
+        padding-top: 1rem;
+        font-size: 0.8rem;
+        letter-spacing: 3px;
+        font-weight: 300;
+    }
+    div.hero-background {
+        padding: 6rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div.hero-background {
+        padding: 7rem 5rem;
+    }
+    
+    div.background {
+        padding: 10px 20px;
+        width: 100%;
+        height: auto;
+    }
+    
+    div.background h4 {
+        padding: 1.5rem 1rem;
+        font-size: .8rem;
+    }
+    
+    div.background p {
+        padding-left: 1rem;
+        padding-bottom: 1.5rem;
+        font-size: 0.7rem;
+        letter-spacing: 2px;
+    }
+
+    div.hero-background-pos {
+        display: none;
+    }
+
+    div.snapshot-box-content {
+        flex-flow: wrap;
+        justify-content: center;
+    }
+
+    div.footer-input {   
+        flex-direction: column;
+        
+    }
+
+    .text-area {
+        width: 80%;
+    }
+
+    input[type="text"] {
+        width: 80%;
+        margin: 5px 10px;
+    }
+    input[type="email"] {
+        width: 80%;
+        margin: 10px;
+    }
+
+}

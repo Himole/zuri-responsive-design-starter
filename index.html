@@ -6,16 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Webpage</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaQuery.css">
 </head>
 <body>
     <div class="nav-bar">
         <div class="logo">Snapshot</div>
-        <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
+        <div class="menu">
+            <img src="hamburger-icon.png" alt="menu" class="menu-icon">
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
     </div>
 
     <!-- Hero section -->
@@ -44,15 +48,15 @@
     </div>
     <div class="snapshot-box">
         <div class="snapshot-box-content">
-            <div class="box1">
+            <div class="box1 box">
                     <div class="circle"></div>
                     <h5>Linda, Manager</h5>
             </div>
-            <div class="box1">
+            <div class="box1 box">
                 <div class="circle"></div>
                 <h5>Linda, Manager</h5>
             </div>
-            <div class="box3">
+            <div class="box3 box">
                 <div class="circle"></div>
                 <h5>Linda, Manager</h5>
             </div>
@@ -92,16 +96,18 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, sapiente. Nuleos rem!</p>
         </div>
         <div class="footer-input">
-            <input type="text" placeholder="Name"> 
-            <input type="email" placeholder="Email">
+            <input type="text" id="input-name" placeholder="Name"> 
+            <input type="email" id="input-email" placeholder="Email">
         </div>
         <div class="footer-textarea">
-            <textarea placeholder="Message"></textarea>
+            <textarea class="text-area" placeholder="Message"></textarea>
         </div>
         <div class="footer-btn">
             <a href="#">Send Message</a>
         </div>
         <h6>Copyright &copy; 2021 Zuri Training.</h6>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
