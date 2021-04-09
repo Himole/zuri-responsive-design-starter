@@ -1,6 +1,19 @@
 /*MEDIA QUERY Responsive for screen size */
 
-@media screen and (max-width: 756px) {
+@media screen and (max-width: 1200px) {
+    div.hero-background-pos {
+        position: absolute;
+        right: 0px;
+        left: 72%;
+        background: #fff;
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
+    }
+}
+
+@media screen and (max-width: 768px) {
     body {
         width: 100%;
         box-sizing: border-box;
@@ -29,26 +42,31 @@
         padding: .2em;
     }
     div.logo {
-        margin: auto 0;*/
-    }
+        margin: auto 0;
+    }*/
+
     div.hero-section {
         padding: 5rem 2rem;
     }
+
     div.hero-content-heading h3 {
         font-size: 1.5rem;
     }
+
     div.hero-content-heading p {
         padding-top: 1rem;
         font-size: 0.8rem;
         letter-spacing: 3px;
         font-weight: 300;
     }
+
     div.hero-background {
         padding: 6rem;
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
     div.hero-background {
         padding: 7rem 5rem;
     }
@@ -85,7 +103,7 @@
         
     }
 
-    .text-area {
+  .text-area {
         width: 80%;
     }
 
@@ -93,9 +111,10 @@
         width: 80%;
         margin: 5px 10px;
     }
+
     input[type="email"] {
         width: 80%;
         margin: 10px;
     }
-
 }
+
